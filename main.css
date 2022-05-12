@@ -1,0 +1,609 @@
+.pagina-completa{
+    display:grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+} 
+    /*...........................main mobile....PAGINA INICIAL..............*/
+ main{
+    grid-area: main;
+}
+main{ 
+    display: grid;
+    grid-template-areas: 
+    "main-logo"
+    "main-descripcion";
+}
+.main-logo, .main-descripcion{
+        border: solid 2px white;
+    }
+.main-logo{
+        grid-area: main-logo;
+        text-align: center;
+        margin-top: auto;
+    }
+.main-descripcion{
+        background-color: #eeccb0;
+        grid-area: main-descripcion;
+        justify-content: center;
+    }
+.logo img{
+        max-width: 150px;   
+    }
+.fondo-color{
+    background-image: linear-gradient(#eeccb0, #70280a);
+        height: 200px;
+        margin: auto;
+    }
+.Churros-rosario{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color:#522903;
+    margin: 20px 40px;  
+    text-align: center;
+    }
+.parrafo, .parrafo1, .parrafo2{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1em;
+    font-weight: bolder;
+    color:#70280a;
+    margin: 20px 10px;  
+    text-align: center;    
+    }
+.video{
+        display: none;
+    }
+.parrafo img, .parrafo1 img{
+        max-width: 80px;
+        margin-left: 5px;
+    }
+    /*-------------------------------main mobile pagina MENU--------------*/
+    .titulo-menu-{
+       
+        height: 70px;
+        background-image:url(./public/marca-oscura.jpg);
+        opacity: 0.7; 
+    }
+
+    .churros-rellenos img, .churros-comunes img, .delgados img, .bañados img, .delgados-bañados img, .picachurros img{  
+         max-width: 50px;
+    }
+
+    .rellenos, .comunes, .churritos, .churros-bañados, .churritos-bañados, .pica{
+        font-family: 'Kanit', sans-serif;
+        font-size: 1.5em;
+        font-weight: bolder;
+        color:#70280a;
+    } 
+    .navegacion-menu{
+        background-image: linear-gradient(#eeccb0, rgba(165, 42, 42, 0.308));
+        display:grid;
+        justify-content:start;
+        grid-template-areas: 
+        "producto1"
+        "producto2"
+        "producto3"
+        "producto4"
+        "producto5"
+        "producto6";
+    }
+
+     .producto1{
+        grid-area: producto1;
+       
+    }
+    .producto2{
+        grid-area: producto2;
+    }
+    .producto3{
+        grid-area: producto3;
+    }
+    .producto4{
+        grid-area: producto4;
+    }
+    .producto5{
+        grid-area: producto5;
+    }
+    .producto6{
+        grid-area: producto6;
+    }
+  /*................Main MOBILE-ENVIOS-MED.......*/
+ 
+  .titulo-envios{
+    font-family: 'Kanit', sans-serif;
+    color: #C89265; bac2
+    text-align: center;
+    font-size: 2em;
+  }
+       /*...........................header MOBILE- INICIAL...............*/
+    header{
+        grid-area:header;
+    }
+    header, main, footer{
+        border: solid 2px white;
+    }
+.link-inicio{
+        font-family: 'Kanit', sans-serif;
+        color: white;
+}
+ul{
+    list-style: none;
+}
+.home-navegador-lista{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: auto;
+    background-color: #C89265; b2
+}
+
+/*---------------------------header-MOBILE- MENU........................*/
+.pagina-menu{
+    display: grid;
+    grid-template-areas: 
+    "header-menu"
+    "into-menu"
+    "redessociales-menu";
+}
+.header-menu{
+    grid-area: header-menu;
+}
+.into-menu{
+    grid-area: into-menu;
+}
+.redessociales-menu{
+    grid-area: redessociales-menu;
+}
+header, main, footer{
+    border: solid 2px white;
+}
+.link-inicio{
+    font-family: 'Kanit', sans-serif;
+    color: white;
+}
+ul{
+list-style: none;
+}
+.home-navegador-lista-home{
+list-style-type: none;
+display: flex;
+flex-direction: column;
+text-align: start;
+margin-top: auto;
+background-color: #C89265; b2
+}
+
+   /*------------------------- header-MOBILE-PEDIDOS -----------------*/
+
+.pagina-pedidos{
+    display: grid;
+    grid-template-areas: 
+    "header-pedidos"
+    "mapa"
+    "redessociales-menu";
+
+}
+.header-pedidos{
+    grid-area: header-pedidos;
+}
+.mapa{
+    grid-area: mapa;
+}
+.mapa img{
+    max-width: fit-content;
+}
+.redessociales-menu{
+    grid-area: redessociales-menu;
+}
+.home-navegador-lista-home, .mapa, .redessociales-menu{
+    border: solid 2px white;
+}
+.link-inicio{
+    font-family: 'Kanit', sans-serif;
+    color: white; cl
+}
+ul{
+list-style: none;
+}
+.home-navegador-lista-home{
+list-style-type: none;
+display: flex;
+flex-direction: column;
+text-align: start;
+margin-top: auto;
+background-color: #C89265; b2
+}
+
+        /*..............................footer mobile...pagina inicial................*/
+footer{
+    grid-area: footer;
+}
+.titulo-footer, .redes{ 
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color:#70280a; cp
+    margin: 20px 40px;  
+    text-align: start;   
+}
+.texto-footer-somos{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1em;
+    font-weight: bolder;
+    color:#70280a; cp
+    margin: 20px 10px;  
+    text-align: center;    
+}
+footer{
+    background-color: #eeccb0; b
+    display: grid;
+    grid-template-areas: 
+    "quienes-somos"
+    "redessociales";
+}
+.quienes-somos, .redessociales{
+    border:solid 2px white;
+}
+
+.quienes-somos{
+    grid-area: quienes-somos;   
+}
+.redessociales-menu{
+    justify-content:center;
+}
+.redessociales{
+    grid-area: redessociales;
+}
+/*imagenes redes sociales*/
+.instagram img{
+    max-width: 45px;
+}
+.phone img{
+    max-width: 73px;
+}
+
+.face img{
+    max-width: 65px;
+}
+
+/*-----------------------media queries................desktop- PAGINA INICIAL*/
+@media screen and (min-width:768px){
+
+        .pagina-completa{
+        height: 900px;
+        display: grid;
+        grid-template-areas:
+        "header header"
+        "main main"
+        "footer footer";
+    } 
+
+     /*................................................HEADER-Desktop PAGINA INICIAL..........................................*/
+    header{
+        grid-area: header;
+    
+    }
+    header, main, footer{
+        border: solid 2px white;
+    }
+    
+    .home-navegador-lista{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #C89265; b2
+    }
+    .link-inicio{
+        font-family: 'Kanit', sans-serif;
+        color: white;   cl
+    }
+    
+   
+    /*................................................PAGINA Menu..........................................*/
+.pagina-menu{
+    height: 900px;
+    display: grid;
+    grid-template-areas: 
+    "header-menu header-menu"
+    "into-menu into-menu"
+    "redessociales-menu redessociales-menu";
+    }
+.header-menu{
+    grid-area: header-menu;
+    }
+.into-menu{
+    grid-column: into-menu;
+    }
+.redessociales-menu{
+    grid-area: redessociales-menu;
+    }
+header, main, footer{
+    border: solid 2px #white;
+    }
+    /*................................................HEADER PAGINA Menu..........................................*/
+.home-navegador-lista-home{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #C89265; b2
+    }
+.link-inicio{
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    }
+.navbar-brand{
+        width: 1000px;
+    }
+/*-----------------------pagina pedidos--------------------------------*/
+.pagina-pedidos{
+    display: grid;
+    grid-template-areas: 
+    "header-pedidos header-pedidos"
+    "mapa mapa"
+    "redessociales-menu redessociales-menu";
+    }
+
+.header-pedidos{
+    grid-area: header-pedidos;
+        }
+.mapa{
+    grid-area: mapa;
+    justify-content: center;
+    }
+.redessociales-menu{
+    grid-area: redessociales-menu;
+    }
+
+    /*-----------------------Header pagina pedidos--------------------------------*/
+    .home-navegador-lista-home{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #C89265; 
+        }
+    .link-inicio{
+        font-family: 'Kanit', sans-serif;
+        color: white; 
+        }
+        /*-------------------------------------------------------MAIN....PAGINA INICIAL.......................................*/
+    main{
+        grid-area: main;
+    }    
+        
+    .logo{
+        display: flex;
+        justify-content: center;
+        animation-name: animacion-in;
+        animation-iteration-count:1;
+        animation-timing-function: ease;
+        animation-duration:2s;
+        animation-delay: 1s; 
+    }
+    .video {
+        display: flex;
+        justify-content: center;
+        animation-name: animacion-out;
+        animation-iteration-count:1;
+        animation-timing-function: ease;
+        animation-duration:5s;
+        animation-delay: 1s;
+    }  
+
+    
+        @keyframes animacion-in{
+            0%{
+            transform: translateX(500px);
+            opacity: 0;
+            }
+            50%{
+            transform: translateX(20px);
+            opacity: .5px;
+            }
+            100%{
+            transform: translateX(0px);
+            opacity: 1;
+            }
+        
+    }
+    .fondo-color{
+        height: 500px;
+    }
+    .Churros-rosario{
+        font-size: 2.5em;
+    }
+    .parrafo, .parrafo1, .parrafo2{
+        font-size: 1.5em;
+    }
+    .video{
+        text-align: center;
+    }
+    .parrafo img, .parrafo1 img{
+        max-width: 80px;
+        margin-left: 5px;
+    }
+
+ /*---------------------------------------------main pagina menu----------------------------*/
+
+ .titulo-menu{
+    font-family: 'Kanit', sans-serif;
+    color: #C89265; 
+    text-align: center;
+    font-size: 2em;
+    height: 50px;
+    }
+
+.churros-rellenos img, .churros-comunes img, .delgados img, .bañados img, .delgados-bañados img, .picachurros img{  
+     max-width: 150px;
+    }
+
+.rellenos, .comunes, .churritos, .churros-bañados, .churritos-bañados, .pica{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color:#70280a;
+    } 
+.navegacion-menu{
+    display:grid;
+    justify-content:space-evenly;
+    grid-template-areas: 
+    "producto1 producto2"
+    "producto3 producto4"
+    "producto5 producto6";
+    }
+
+ .producto1{
+    grid-area: producto1;
+    }
+.producto2{
+    grid-area: producto2;
+    }
+.producto3{
+    grid-area: producto3;
+    }
+.producto4{
+    grid-area: producto4;
+    }
+.producto5{
+    grid-area: producto5;
+    }
+.producto6{
+    grid-area: producto6;
+    }
+/*-------------------------------------------------------Main----Pagina-PEDIDOS-------------------------------------*/
+    .parrafo2{
+        align-content: center;
+    }
+ /*-------------------------------------------------------footer.....PAGINA INICIAL......................................*/
+
+    .titulo-footer, .redes{ 
+        font-size: 2em;     
+    }
+
+    .texto-footer-somos{
+        font-family: 'Kanit', sans-serif;
+        font-size: 1em;
+        font-weight: bolder;
+        color:#70280a; 
+        margin: 20px 40px;  
+        text-align: start;    
+    }
+
+    footer{
+        height: 80px;
+        background-color: #C89265;
+        display: grid;
+        grid-template-areas: 
+        " quienes-somos redessociales";
+    }
+
+    .quienes-somos, .redessociales{
+        border:solid 2px white;
+    }
+
+    .quienes-somos{
+        grid-area: quienes-somos;
+        height: 160px;  
+    }
+    .redessociales-menu{
+        justify-content:center;
+    }
+
+    .redessociales{
+        grid-area: redessociales;
+        height: 160px;  
+    }
+
+    /*imagenes redes sociales*/
+    .instagram img{
+        max-width: 45px;
+    }
+    .phone img{
+        max-width: 73px;
+    }
+
+    .face img{
+        max-width: 65px;
+    }
+
+    /*Traslado de imagenes redes*/
+    .face{
+        transform: translate(200px, -55px);
+    }
+    .phone{
+        transform: translate(300px, -120px);
+    }
+    .instagram{
+        transform: translate(100px,5px);
+    }
+
+        /*.............................................................................*/
+
+        /*..................................................F0NDO COLOR PAGINAS.................................*/
+
+
+    .fondo-color-menu{
+         background-color: #eeccb0; 
+        height: 50px;
+    }
+
+    .fondo-color-pedido{
+        background-color: #eeccb0;
+        height: 50px;
+    }
+    .fondo-color-envio{
+         background-color: #eeccb0; 
+         height: 50px;
+    }
+    .fondo-color-pagos{
+        background-color: #eeccb0;
+        height: 50px;
+    }
+
+    .fondo-color-registro{
+         background-color: #eeccb0;
+        height: 50px;
+    }
+
+        /*..................................................TITULOS  PAGINAS.................................*/
+    .titulo-envios{
+        font-family: 'Kanit', sans-serif;
+        color: #C89265;
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .titulo-pagos{
+        font-family: 'Kanit', sans-serif;
+        color: #70280a;
+        text-align: center;
+        font-size: 2em;
+    } 
+
+        /*...............................................categorias PAGINA DE MENU*/
+
+    
+
+        /*.....................................................imagen1 LOGO DE LAS PAGINAS DE ENVIOS y pagos*/
+    .imagen1{
+        text-align: center;
+    }
+
+    .ubicacion{
+        align-items: center;
+    }
+    
+    .inicio{
+        text-align: center;
+    }
+    .pedidosya{
+        text-align: center;
+    }
+
+
+}
