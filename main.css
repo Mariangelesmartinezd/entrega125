@@ -1,3 +1,5 @@
+/*
+
 .pagina-completa{
     display:grid;
     grid-template-areas:
@@ -5,7 +7,7 @@
     "main"
     "footer";
 } 
-    /*...........................main mobile....PAGINA INICIAL..............*/
+
  main{
     grid-area: main;
 }
@@ -28,6 +30,8 @@ main{
         grid-area: main-descripcion;
         justify-content: center;
     }
+
+    
 .logo img{
         max-width: 150px;   
     }
@@ -40,7 +44,7 @@ main{
     font-family: 'Kanit', sans-serif;
     font-size: 1.5em;
     font-weight: bolder;
-    color:#522903;
+    color:$color-secundary;
     margin: 20px 40px;  
     text-align: center;
     }
@@ -59,7 +63,7 @@ main{
         max-width: 80px;
         margin-left: 5px;
     }
-    /*-------------------------------main mobile pagina MENU--------------*/
+    /*-------------------------------main mobile pagina MENU--------------
     .titulo-menu-{
        
         height: 70px;
@@ -109,7 +113,7 @@ main{
     .producto6{
         grid-area: producto6;
     }
-  /*................Main MOBILE-ENVIOS-MED.......*/
+  /*................Main MOBILE-ENVIOS-MED.......
  
   .titulo-envios{
     font-family: 'Kanit', sans-serif;
@@ -117,7 +121,7 @@ main{
     text-align: center;
     font-size: 2em;
   }
-       /*...........................header MOBILE- INICIAL...............*/
+       /*...........................header MOBILE- INICIAL...............
     header{
         grid-area:header;
     }
@@ -140,7 +144,7 @@ ul{
     background-color: #C89265; b2
 }
 
-/*---------------------------header-MOBILE- MENU........................*/
+/*---------------------------header-MOBILE- MENU........................
 .pagina-menu{
     display: grid;
     grid-template-areas: 
@@ -176,7 +180,7 @@ margin-top: auto;
 background-color: #C89265; b2
 }
 
-   /*------------------------- header-MOBILE-PEDIDOS -----------------*/
+   /*------------------------- header-MOBILE-PEDIDOS -----------------
 
 .pagina-pedidos{
     display: grid;
@@ -217,7 +221,7 @@ margin-top: auto;
 background-color: #C89265; b2
 }
 
-        /*..............................footer mobile...pagina inicial................*/
+        /*..............................footer mobile...pagina inicial................
 footer{
     grid-area: footer;
 }
@@ -269,7 +273,7 @@ footer{
     max-width: 65px;
 }
 
-/*-----------------------media queries................desktop- PAGINA INICIAL*/
+/*-----------------------media queries................desktop- PAGINA INICIAL
 @media screen and (min-width:768px){
 
         .pagina-completa{
@@ -281,7 +285,7 @@ footer{
         "footer footer";
     } 
 
-     /*................................................HEADER-Desktop PAGINA INICIAL..........................................*/
+     /*................................................HEADER-Desktop PAGINA INICIAL..........................................
     header{
         grid-area: header;
     
@@ -303,7 +307,7 @@ footer{
     }
     
    
-    /*................................................PAGINA Menu..........................................*/
+    /*................................................PAGINA Menu..........................................
 .pagina-menu{
     height: 900px;
     display: grid;
@@ -324,7 +328,7 @@ footer{
 header, main, footer{
     border: solid 2px #white;
     }
-    /*................................................HEADER PAGINA Menu..........................................*/
+    /*................................................HEADER PAGINA Menu..........................................
 .home-navegador-lista-home{
     list-style-type: none;
     display: flex;
@@ -339,7 +343,7 @@ header, main, footer{
 .navbar-brand{
         width: 1000px;
     }
-/*-----------------------pagina pedidos--------------------------------*/
+/*-----------------------pagina pedidos--------------------------------
 .pagina-pedidos{
     display: grid;
     grid-template-areas: 
@@ -359,7 +363,7 @@ header, main, footer{
     grid-area: redessociales-menu;
     }
 
-    /*-----------------------Header pagina pedidos--------------------------------*/
+    /*-----------------------Header pagina pedidos--------------------------------
     .home-navegador-lista-home{
         list-style-type: none;
         display: flex;
@@ -371,7 +375,7 @@ header, main, footer{
         font-family: 'Kanit', sans-serif;
         color: white; 
         }
-        /*-------------------------------------------------------MAIN....PAGINA INICIAL.......................................*/
+        /*-------------------------------------------------------MAIN....PAGINA INICIAL.......................................
     main{
         grid-area: main;
     }    
@@ -428,7 +432,7 @@ header, main, footer{
         margin-left: 5px;
     }
 
- /*---------------------------------------------main pagina menu----------------------------*/
+ /*---------------------------------------------main pagina menu----------------------------
 
  .titulo-menu{
     font-family: 'Kanit', sans-serif;
@@ -475,11 +479,11 @@ header, main, footer{
 .producto6{
     grid-area: producto6;
     }
-/*-------------------------------------------------------Main----Pagina-PEDIDOS-------------------------------------*/
+/*-------------------------------------------------------Main----Pagina-PEDIDOS-------------------------------------
     .parrafo2{
         align-content: center;
     }
- /*-------------------------------------------------------footer.....PAGINA INICIAL......................................*/
+ /*-------------------------------------------------------footer.....PAGINA INICIAL......................................
 
     .titulo-footer, .redes{ 
         font-size: 2em;     
@@ -519,7 +523,7 @@ header, main, footer{
         height: 160px;  
     }
 
-    /*imagenes redes sociales*/
+    /*imagenes redes sociales
     .instagram img{
         max-width: 45px;
     }
@@ -531,7 +535,7 @@ header, main, footer{
         max-width: 65px;
     }
 
-    /*Traslado de imagenes redes*/
+    /*Traslado de imagenes redes
     .face{
         transform: translate(200px, -55px);
     }
@@ -542,9 +546,8 @@ header, main, footer{
         transform: translate(100px,5px);
     }
 
-        /*.............................................................................*/
-
-        /*..................................................F0NDO COLOR PAGINAS.................................*/
+        /*.............................................................................
+        /*..................................................F0NDO COLOR PAGINAS.................................
 
 
     .fondo-color-menu{
@@ -570,7 +573,7 @@ header, main, footer{
         height: 50px;
     }
 
-        /*..................................................TITULOS  PAGINAS.................................*/
+        /*..................................................TITULOS  PAGINAS.................................
     .titulo-envios{
         font-family: 'Kanit', sans-serif;
         color: #C89265;
@@ -585,11 +588,11 @@ header, main, footer{
         font-size: 2em;
     } 
 
-        /*...............................................categorias PAGINA DE MENU*/
+        /*...............................................categorias PAGINA DE MENU
 
     
 
-        /*.....................................................imagen1 LOGO DE LAS PAGINAS DE ENVIOS y pagos*/
+        /*.....................................................imagen1 LOGO DE LAS PAGINAS DE ENVIOS y pagos
     .imagen1{
         text-align: center;
     }
