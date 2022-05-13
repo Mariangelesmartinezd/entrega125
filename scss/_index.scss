@@ -1,0 +1,69 @@
+.link-inicio{
+    font-family: 'Kanit', sans-serif;
+    color: white;
+
+    ul{
+    list-style: none;
+      }
+}
+.pagina-completa{
+    display:grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+} 
+    /*...........................main mobile....PAGINA INICIAL..............*/
+    main{
+        grid-area: main;
+    }
+    main{ 
+        display: grid;
+        grid-template-areas: 
+        "main-logo"
+        "main-descripcion";
+    }
+    .main-logo, .main-descripcion{
+            border: solid 2px white;
+        }
+    .main-logo{
+            grid-area: main-logo;
+            text-align: center;
+            margin-top: auto;
+        }
+    .main-descripcion{
+            background-color: #eeccb0;
+            grid-area: main-descripcion;
+            justify-content: center;
+        }
+    .logo img{
+            max-width: 150px;   
+        }
+    .fondo-color{
+        background-image: linear-gradient(#eeccb0, #70280a);
+            height: 200px;
+            margin: auto;
+        }
+    .Churros-rosario{
+        font-family: 'Kanit', sans-serif;
+        font-size: 1.5em;
+        font-weight: bolder;
+        color:#522903;
+        margin: 20px 40px;  
+        text-align: center;
+        }
+    .parrafo, .parrafo1, .parrafo2{
+        font-family: 'Kanit', sans-serif;
+        font-size: 1em;
+        font-weight: bolder;
+        color:#70280a;
+        margin: 20px 10px;  
+        text-align: center;    
+        }
+    .video{
+            display: none;
+        }
+    .parrafo img, .parrafo1 img{
+            max-width: 80px;
+            margin-left: 5px;
+        }
