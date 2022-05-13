@@ -230,6 +230,9 @@ footer {
 .face img {
   max-width: 65px; }
 
+.navbar {
+  background-color: purple !important; }
+
 /*-----------------------media queries................desktop- PAGINA INICIAL*/
 @media screen and (min-width: 768px) {
   .pagina-completa {

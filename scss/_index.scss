@@ -277,6 +277,9 @@ max-width: 73px;
 .face img{
 max-width: 65px;
 }
+.navbar{
+    background-color: purple !important;
+}
 /*-----------------------media queries................desktop- PAGINA INICIAL*/
 @media screen and (min-width:768px){
 
@@ -346,6 +349,7 @@ color: white;
 }
 .navbar-brand{
     width: 1000px;
+
 }
 /*-----------------------pagina pedidos--------------------------------*/
 .pagina-pedidos{
