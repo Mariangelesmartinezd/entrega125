@@ -9,12 +9,10 @@ main {
   display: grid;
   grid-template-areas: "main-logo" "main-descripcion"; }
   main .main-logo {
-    border: solid 2px white;
     grid-area: main-logo;
     text-align: center;
     margin-top: auto; }
   main .main-descripcion {
-    border: solid 2px white;
     background-color: #eeccb0;
     grid-area: main-descripcion;
     justify-content: center; }
@@ -27,21 +25,20 @@ main {
   height: 200px;
   margin: auto; }
 
-.Churros-rosario {
+.boton, .Churros-rosario, .parrafo, .parrafo1, .parrafo2, .texto-footer-somos {
   font-family: 'Kanit', sans-serif;
-  font-size: 1.5em;
   font-weight: bolder;
-  color: #522903;
-  margin: 20px 40px;
   text-align: center; }
 
+.Churros-rosario {
+  font-size: 1.5em;
+  color: #522903;
+  margin: 20px 40px; }
+
 .parrafo, .parrafo1, .parrafo2 {
-  font-family: 'Kanit', sans-serif;
   font-size: 1em;
-  font-weight: bolder;
   color: #70280a;
-  margin: 20px 10px;
-  text-align: center; }
+  margin: 20px 10px; }
 
 .video {
   display: none; }
@@ -66,7 +63,7 @@ main {
   color: #70280a; }
 
 .navegacion-menu {
-  background-image: linear-gradient(#eeccb0, rgba(165, 42, 42, 0.308));
+  background-image: linear-gradient(#eeccb0, #a52a2a4f);
   display: grid;
   justify-content: start;
   grid-template-areas: "producto1" "producto2" "producto3" "producto4" "producto5" "producto6"; }
@@ -133,13 +130,6 @@ header, main, footer {
 header, main, footer {
   border: solid 2px white; }
 
-/*scss*/
-.link-inicio {
-  font-family: 'Kanit', sans-serif;
-  color: white; }
-  .link-inicio ul {
-    list-style: none; }
-
 .home-navegador-lista-home {
   list-style-type: none;
   display: flex;
@@ -169,12 +159,6 @@ header, main, footer {
   border: solid 2px white; }
 
 /*scss*/
-.link-inicio {
-  font-family: 'Kanit', sans-serif;
-  color: white; }
-  .link-inicio ul {
-    list-style: none; }
-
 .home-navegador-lista-home {
   list-style-type: none;
   display: flex;
@@ -196,12 +180,9 @@ footer {
   text-align: start; }
 
 .texto-footer-somos {
-  font-family: 'Kanit', sans-serif;
   font-size: 1em;
-  font-weight: bolder;
   color: #70280a;
-  margin: 20px 10px;
-  text-align: center; }
+  margin: 20px 10px; }
 
 footer {
   background-color: #eeccb0;
@@ -234,8 +215,6 @@ footer {
   background-color: #b36002ab !important;
   font-family: 'Kanit', sans-serif !important;
   font-weight: bold !important; }
-  .navbar .navbar-brand {
-    color: white !important; }
 
 /*-----------------------media queries................desktop- PAGINA INICIAL*/
 @media screen and (min-width: 768px) {
@@ -254,9 +233,6 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     background-color: #C89265; }
-  .link-inicio {
-    font-family: 'Kanit', sans-serif;
-    color: white; }
   /*................................................PAGINA Menu..........................................*/
   .pagina-menu {
     height: 900px;
@@ -277,9 +253,6 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     background-color: #C89265; }
-  .link-inicio {
-    font-family: 'Kanit', sans-serif;
-    color: white; }
   .navbar-brand {
     width: 1000px; }
   /*-----------------------pagina pedidos--------------------------------*/
@@ -300,9 +273,6 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     background-color: #C89265; }
-  .link-inicio {
-    font-family: 'Kanit', sans-serif;
-    color: white; }
   /*-------------------------------------------------------MAIN....PAGINA INICIAL.......................................*/
   main {
     grid-area: main; }
