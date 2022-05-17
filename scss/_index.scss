@@ -278,7 +278,13 @@ max-width: 73px;
 max-width: 65px;
 }
 .navbar{
-    background-color: purple !important;
+    background-color: #b36002ab !important;
+    font-family: 'Kanit', sans-serif !important;
+    font-weight: bold !important;
+    .navbar-brand{
+        color: white !important;
+    }
+
 }
 /*-----------------------media queries................desktop- PAGINA INICIAL*/
 @media screen and (min-width:768px){
