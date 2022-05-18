@@ -36,9 +36,9 @@ main {
   margin: 20px 40px; }
 
 .parrafo, .parrafo1, .parrafo2 {
-  font-size: 1em;
   color: #70280a;
-  margin: 20px 10px; }
+  margin: 20px 10px;
+  font-size: 1.5em; }
 
 .video {
   display: none; }
@@ -276,22 +276,18 @@ footer {
   /*-------------------------------------------------------MAIN....PAGINA INICIAL.......................................*/
   main {
     grid-area: main; }
+  .boton-animacion, .logo, .video {
+    display: flex;
+    justify-content: center;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-delay: 1s; }
   .logo {
-    display: flex;
-    justify-content: center;
     animation-name: animacion-in;
-    animation-iteration-count: 1;
-    animation-timing-function: ease;
-    animation-duration: 2s;
-    animation-delay: 1s; }
+    animation-duration: 2s; }
   .video {
-    display: flex;
-    justify-content: center;
     animation-name: animacion-out;
-    animation-iteration-count: 1;
-    animation-timing-function: ease;
-    animation-duration: 5s;
-    animation-delay: 1s; }
+    animation-duration: 5s; }
   @keyframes animacion-in {
     0% {
       transform: translateX(500px);
@@ -306,8 +302,6 @@ footer {
     height: 500px; }
   .Churros-rosario {
     font-size: 2.5em; }
-  .parrafo, .parrafo1, .parrafo2 {
-    font-size: 1.5em; }
   .video {
     text-align: center; }
   .parrafo img, .parrafo1 img {

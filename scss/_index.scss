@@ -49,9 +49,9 @@
         }
     .parrafo, .parrafo1, .parrafo2{
         @extend .boton;
-        font-size: 1em;
         color:$color-gradiente;
         margin: 20px 10px;  
+        font-size: 1.5em;
         }
     .video{
             display: none;
@@ -365,24 +365,22 @@ grid-area: redessociales-menu;
 main{
     grid-area: main;
 }    
-    
-.logo{
+.boton-animacion{
     display: flex;
     justify-content: center;
-    animation-name: animacion-in;
     animation-iteration-count:1;
     animation-timing-function: ease;
+    animation-delay: 1s;   
+}
+.logo{
+    @extend .boton-animacion;
+    animation-name: animacion-in;
     animation-duration:2s;
-    animation-delay: 1s; 
 }
 .video {
-    display: flex;
-    justify-content: center;
+    @extend .boton-animacion;
     animation-name: animacion-out;
-    animation-iteration-count:1;
-    animation-timing-function: ease;
     animation-duration:5s;
-    animation-delay: 1s;
 }  
 
 
@@ -407,9 +405,8 @@ main{
 .Churros-rosario{
     font-size: 2.5em;
 }
-.parrafo, .parrafo1, .parrafo2{
-    font-size: 1.5em;
-}
+
+    
 .video{
     text-align: center;
 }
