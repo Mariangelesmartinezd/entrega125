@@ -47,16 +47,25 @@
         color:#522903;
         margin: 20px 40px;  
         }
-    .parrafo, .parrafo1, .parrafo2{
+
+    $varios: (
+1:#ff6600,
+2:brown,
+3:red,
+);
+@each $parrafo, $color in $varios{
+    .parrafo#{$parrafo}{color: $color;}
+}
+
+    .parrafo, .parrafo1, .parrafo2,.parrafo3{
         @extend .boton;
-        color:$color-gradiente;
         margin: 20px 10px;  
         font-size: 1.5em;
         }
     .video{
             display: none;
         }
-    .parrafo img, .parrafo1 img{
+    .parrafo3 img, .parrafo1 img{
             max-width: 80px;
             margin-left: 5px;
         }
@@ -123,7 +132,6 @@ header, main, footer{
     border: solid 2px white;
 }
 
-/*scss*/
 
 .link-inicio{
     font-family: 'Kanit', sans-serif;
@@ -435,6 +443,7 @@ font-size: 1.5em;
 font-weight: bolder;
 color:$color-gradiente;
 } 
+
 .navegacion-menu{
 display:grid;
 justify-content:space-evenly;
@@ -446,6 +455,7 @@ grid-template-areas:
 
 .producto1{
 grid-area: producto1;
+
 }
 .producto2{
 grid-area: producto2;
@@ -463,6 +473,9 @@ grid-area: producto5;
 grid-area: producto6;
 }
 /*-------------------------------------------------------Main----Pagina-PEDIDOS-------------------------------------*/
+.parrafo{
+    color: #522903;
+}
 .parrafo2{
     align-content: center;
 }

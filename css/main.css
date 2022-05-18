@@ -25,7 +25,7 @@ main {
   height: 200px;
   margin: auto; }
 
-.boton, .Churros-rosario, .parrafo, .parrafo1, .parrafo2, .texto-footer-somos {
+.boton, .Churros-rosario, .parrafo, .parrafo1, .parrafo2, .parrafo3, .texto-footer-somos {
   font-family: 'Kanit', sans-serif;
   font-weight: bolder;
   text-align: center; }
@@ -35,15 +35,23 @@ main {
   color: #522903;
   margin: 20px 40px; }
 
-.parrafo, .parrafo1, .parrafo2 {
-  color: #70280a;
+.parrafo1 {
+  color: #ff6600; }
+
+.parrafo2 {
+  color: brown; }
+
+.parrafo3 {
+  color: red; }
+
+.parrafo, .parrafo1, .parrafo2, .parrafo3 {
   margin: 20px 10px;
   font-size: 1.5em; }
 
 .video {
   display: none; }
 
-.parrafo img, .parrafo1 img {
+.parrafo3 img, .parrafo1 img {
   max-width: 80px;
   margin-left: 5px; }
 
@@ -98,7 +106,6 @@ header {
 header, main, footer {
   border: solid 2px white; }
 
-/*scss*/
 .link-inicio {
   font-family: 'Kanit', sans-serif;
   color: white; }
@@ -338,6 +345,8 @@ footer {
   .producto6 {
     grid-area: producto6; }
   /*-------------------------------------------------------Main----Pagina-PEDIDOS-------------------------------------*/
+  .parrafo {
+    color: #522903; }
   .parrafo2 {
     align-content: center; }
   /*-------------------------------------------------------footer.....PAGINA INICIAL......................................*/
