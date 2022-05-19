@@ -3,6 +3,12 @@
   display: grid;
   grid-template-areas: "header" "main" "footer"; }
 
+header {
+  grid-area: header; }
+
+footer {
+  grid-area: footer; }
+
 /*...........................main mobile....PAGINA INICIAL..............*/
 main {
   grid-area: main;
@@ -15,7 +21,8 @@ main {
   main .main-descripcion {
     background-color: #eeccb0;
     grid-area: main-descripcion;
-    justify-content: center; }
+    justify-content: center;
+    color: brown; }
 
 .logo img {
   max-width: 150px; }
@@ -24,6 +31,9 @@ main {
   background-image: linear-gradient(#eeccb0, #70280a);
   height: 200px;
   margin: auto; }
+
+.parrafo {
+  color: #522903; }
 
 .boton, .Churros-rosario, .parrafo, .parrafo1, .parrafo2, .parrafo3, .texto-footer-somos {
   font-family: 'Kanit', sans-serif;
@@ -103,27 +113,13 @@ main {
 header {
   grid-area: header; }
 
-header, main, footer {
-  border: solid 2px white; }
-
-.link-inicio {
-  font-family: 'Kanit', sans-serif;
-  color: white; }
-  .link-inicio ul {
-    list-style: none; }
-
-.home-navegador-lista {
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-top: auto;
-  background-color: #C89265; }
+ul {
+  list-style: none; }
 
 /*---------------------------header-MOBILE- MENU........................*/
 .pagina-menu {
   display: grid;
-  grid-template-areas: "header-menu" "into-menu" "redessociales-menu"; }
+  grid-template-areas: "header-menu" "into-menu" "redessociales"; }
 
 .header-menu {
   grid-area: header-menu; }
@@ -131,24 +127,13 @@ header, main, footer {
 .into-menu {
   grid-area: into-menu; }
 
-.redessociales-menu {
-  grid-area: redessociales-menu; }
-
-header, main, footer {
-  border: solid 2px white; }
-
-.home-navegador-lista-home {
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  text-align: start;
-  margin-top: auto;
-  background-color: #C89265; }
+.redessociales {
+  grid-area: redessociales; }
 
 /*------------------------- header-MOBILE-PEDIDOS -----------------*/
 .pagina-pedidos {
   display: grid;
-  grid-template-areas: "header-pedidos" "mapa" "redessociales-menu"; }
+  grid-template-areas: "header-pedidos" "mapa" "redessociales"; }
 
 .header-pedidos {
   grid-area: header-pedidos; }
@@ -159,25 +144,10 @@ header, main, footer {
 .mapa img {
   max-width: fit-content; }
 
-.redessociales-menu {
-  grid-area: redessociales-menu; }
-
-.home-navegador-lista-home, .mapa, .redessociales-menu {
-  border: solid 2px white; }
-
-/*scss*/
-.home-navegador-lista-home {
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  text-align: start;
-  margin-top: auto;
-  background-color: #C89265; }
+.redessociales {
+  grid-area: redessociales; }
 
 /*..............................footer mobile...pagina inicial................*/
-footer {
-  grid-area: footer; }
-
 .titulo-footer, .redes {
   font-family: 'Kanit', sans-serif;
   font-size: 1.5em;
@@ -193,20 +163,7 @@ footer {
 
 footer {
   background-color: #eeccb0;
-  display: grid;
-  grid-template-areas: "quienes-somos" "redessociales"; }
-
-.quienes-somos, .redessociales {
-  border: solid 2px white; }
-
-.quienes-somos {
-  grid-area: quienes-somos; }
-
-.redessociales-menu {
-  justify-content: center; }
-
-.redessociales {
-  grid-area: redessociales; }
+  margin-left: 0%; }
 
 /*imagenes redes sociales*/
 .instagram img {
@@ -229,60 +186,39 @@ footer {
     height: 900px;
     display: grid;
     grid-template-areas: "header header" "main main" "footer footer"; }
-  /*................................................HEADER-Desktop PAGINA INICIAL..........................................*/
+  footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: center; }
   header {
     grid-area: header; }
-  header, main, footer {
-    border: solid 2px white; }
-  .home-navegador-lista {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: #C89265; }
+  main {
+    grid-area: main; }
   /*................................................PAGINA Menu..........................................*/
   .pagina-menu {
     height: 900px;
     display: grid;
-    grid-template-areas: "header-menu header-menu" "into-menu into-menu" "redessociales-menu redessociales-menu"; }
+    grid-template-areas: "header-menu header-menu" "into-menu into-menu" "redessociales redessociales"; }
   .header-menu {
     grid-area: header-menu; }
   .into-menu {
     grid-column: into-menu; }
-  .redessociales-menu {
-    grid-area: redessociales-menu; }
-  header, main, footer {
-    border: solid 2px #white; }
+  .redessociales {
+    grid-area: redessociales; }
   /*................................................HEADER PAGINA Menu..........................................*/
-  .home-navegador-lista-home {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: #C89265; }
   .navbar-brand {
     width: 1000px; }
   /*-----------------------pagina pedidos--------------------------------*/
   .pagina-pedidos {
     display: grid;
-    grid-template-areas: "header-pedidos header-pedidos" "mapa mapa" "redessociales-menu redessociales-menu"; }
+    grid-template-areas: "header-pedidos header-pedidos" "mapa mapa" "redessociales redessociales"; }
   .header-pedidos {
     grid-area: header-pedidos; }
   .mapa {
     grid-area: mapa;
     justify-content: center; }
-  .redessociales-menu {
-    grid-area: redessociales-menu; }
-  /*-----------------------Header pagina pedidos--------------------------------*/
-  .home-navegador-lista-home {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: #C89265; }
-  /*-------------------------------------------------------MAIN....PAGINA INICIAL.......................................*/
-  main {
-    grid-area: main; }
+  .redessociales {
+    grid-area: redessociales; }
   .boton-animacion, .logo, .video {
     display: flex;
     justify-content: center;
@@ -345,51 +281,8 @@ footer {
   .producto6 {
     grid-area: producto6; }
   /*-------------------------------------------------------Main----Pagina-PEDIDOS-------------------------------------*/
-  .parrafo {
-    color: #522903; }
   .parrafo2 {
     align-content: center; }
-  /*-------------------------------------------------------footer.....PAGINA INICIAL......................................*/
-  .titulo-footer, .redes {
-    font-size: 2em; }
-  .texto-footer-somos {
-    font-family: 'Kanit', sans-serif;
-    font-size: 1em;
-    font-weight: bolder;
-    color: #70280a;
-    margin: 20px 40px;
-    text-align: start; }
-  footer {
-    height: 80px;
-    background-color: #C89265;
-    display: grid;
-    grid-template-areas: " quienes-somos redessociales"; }
-  .quienes-somos, .redessociales {
-    border: solid 2px white; }
-  .quienes-somos {
-    grid-area: quienes-somos;
-    height: 160px; }
-  .redessociales-menu {
-    justify-content: center; }
-  .redessociales {
-    grid-area: redessociales;
-    height: 160px; }
-  /*imagenes redes sociales*/
-  .instagram img {
-    max-width: 45px; }
-  .phone img {
-    max-width: 73px; }
-  .face img {
-    max-width: 65px; }
-  /*Traslado de imagenes redes*/
-  .face {
-    transform: translate(200px, -55px); }
-  .phone {
-    transform: translate(300px, -120px); }
-  .instagram {
-    transform: translate(100px, 5px); }
-  /*.............................................................................*/
-  /*..................................................F0NDO COLOR PAGINAS.................................*/
   .fondo-color-menu {
     background-color: #eeccb0;
     height: 50px; }
