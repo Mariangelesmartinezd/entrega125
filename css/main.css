@@ -12,17 +12,9 @@ footer {
 /*...........................main mobile....PAGINA INICIAL..............*/
 main {
   grid-area: main;
-  display: grid;
-  grid-template-areas: "main-logo" "main-descripcion"; }
-  main .main-logo {
-    grid-area: main-logo;
-    text-align: center;
-    margin-top: auto; }
-  main .main-descripcion {
-    background-color: #eeccb0;
-    grid-area: main-descripcion;
-    justify-content: center;
-    color: brown; }
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
 
 .logo img {
   max-width: 150px; }
