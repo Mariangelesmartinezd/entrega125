@@ -2,13 +2,16 @@
 /*Grid home*/
 .pagina-completa {
   display: grid;
-  grid-template-areas: "header" "main" "footer"; }
+  grid-template-areas: "header"
+ "main"
+ "footer"; }
 
 header {
   grid-area: header; }
 
 footer {
   grid-area: footer; }
+
 
 /*...........................main mobile....PAGINA INICIAL..............*/
 main {
@@ -72,7 +75,12 @@ main {
   background-image: linear-gradient(#eeccb0, #a52a2a4f);
   display: grid;
   justify-content: start;
-  grid-template-areas: "producto1" "producto2" "producto3" "producto4" "producto5" "producto6"; }
+  grid-template-areas: "producto1"
+ "producto2"
+ "producto3"
+ "producto4"
+ "producto5"
+ "producto6"; }
 
 .producto1 {
   grid-area: producto1; }
@@ -107,7 +115,9 @@ ul {
 /*---------------------------header-MOBILE- MENU........................*/
 .pagina-menu {
   display: grid;
-  grid-template-areas: "header-menu" "into-menu" "redessociales"; }
+  grid-template-areas: "header-menu"
+ "into-menu"
+ "redessociales"; }
 
 .header-menu {
   grid-area: header-menu; }
@@ -121,7 +131,9 @@ ul {
 /*------------------------- header-MOBILE-PEDIDOS -----------------*/
 .pagina-pedidos {
   display: grid;
-  grid-template-areas: "header-pedidos" "mapa" "redessociales"; }
+  grid-template-areas: "header-pedidos"
+ "mapa"
+ "redessociales"; }
 
 .header-pedidos {
   grid-area: header-pedidos; }
@@ -172,7 +184,10 @@ footer {
 @media screen and (min-width: 768px) {
   .pagina-completa {
     display: grid;
-    grid-template-areas: "header" "main" "footer"; }
+    grid-template-areas: "header"
+ "main"
+ "footer"; }
+ 
   footer {
     grid-area: footer;
     display: flex; }
@@ -184,7 +199,9 @@ footer {
   .pagina-menu {
     height: 900px;
     display: grid;
-    grid-template-areas: "header-menu header-menu" "into-menu into-menu" "redessociales redessociales"; }
+    grid-template-areas: "header-menu header-menu"
+ "into-menu into-menu"
+ "redessociales redessociales"; }
   .header-menu {
     grid-area: header-menu; }
   .into-menu {
@@ -197,7 +214,9 @@ footer {
   /*-----------------------pagina pedidos--------------------------------*/
   .pagina-pedidos {
     display: grid;
-    grid-template-areas: "header-pedidos header-pedidos" "mapa mapa" "redessociales redessociales"; }
+    grid-template-areas: "header-pedidos header-pedidos"
+ "mapa mapa"
+ "redessociales redessociales"; }
   .header-pedidos {
     grid-area: header-pedidos; }
   .mapa {
@@ -247,7 +266,9 @@ footer {
   .navegacion-menu {
     display: grid;
     justify-content: space-evenly;
-    grid-template-areas: "producto1 producto2" "producto3 producto4" "producto5 producto6"; }
+    grid-template-areas: "producto1 producto2"
+ "producto3 producto4"
+ "producto5 producto6"; }
   .producto1 {
     grid-area: producto1; }
   .producto2 {
