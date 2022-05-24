@@ -86,12 +86,6 @@ footer{
            @include image(80px, 5px)
         }
  /*-------------------------------main mobile pagina MENU--------------*/
- .titulo-menu-{
-       
-    height: 70px;
-    background-image:url(./public/marca-oscura.jpg);
-    opacity: 0.7; 
-}
 
 .churros-rellenos img, .churros-comunes img, .delgados img, .bañados img, .delgados-bañados img, .picachurros img{  
      max-width: 50px;
@@ -135,7 +129,7 @@ footer{
 .producto6{
     grid-area: producto6;
 }
-.titulo-envios{
+.titulo{
     font-family: 'Kanit', sans-serif;
     color: #C89265; 
     text-align: center;
@@ -197,7 +191,7 @@ grid-area: redessociales;
 
     /*..............................footer mobile...pagina inicial................*/
 
-.titulo-footer, .redes{ 
+.redes{ 
 font-family: 'Kanit', sans-serif;
 font-size: 1.5em;
 font-weight: bolder;
@@ -356,14 +350,6 @@ grid-area: redessociales;
 
 /*---------------------------------------------main pagina menu----------------------------*/
 
-.titulo-menu{
-font-family: 'Kanit', sans-serif;
-color: $color-tittle; 
-text-align: center;
-font-size: 2em;
-height: 50px;
-}
-
 .churros-rellenos img, .churros-comunes img, .delgados img, .bañados img, .delgados-bañados img, .picachurros img{  
  max-width: 150px;
 }
@@ -410,43 +396,20 @@ grid-area: producto6;
 }
 
 
-.fondo-color-menu{
+.fondo-color2{
      background-color: $color-primary; 
     height: 50px;
 }
 
-.fondo-color-pedido{
-    background-color: $color-primary;
-    height: 50px;
-}
-.fondo-color-envio{
-     background-color: $color-primary; 
-     height: 50px;
-}
-.fondo-color-pagos{
-    background-color: $color-primary;
-    height: 50px;
-}
-
-.fondo-color-registro{
-     background-color: $color-primary;
-    height: 50px;
-}
 
     /*..................................................TITULOS  PAGINAS.................................*/
-.titulo-envios{
+.titulo{
     font-family: 'Kanit', sans-serif;
     color: $color-tittle;
     text-align: center;
     font-size: 2em;
 }
 
-.titulo-pagos{
-    font-family: 'Kanit', sans-serif;
-    color: $color-gradiente;
-    text-align: center;
-    font-size: 2em;
-} 
 
     /*...............................................categorias PAGINA DE MENU*/
 
