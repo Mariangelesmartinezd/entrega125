@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*Grid home*/
 .pagina-completa {
   display: grid;
   grid-template-areas: "header" "main" "footer"; }
@@ -170,13 +171,11 @@ footer {
 /*-----------------------media queries................desktop- PAGINA INICIAL*/
 @media screen and (min-width: 768px) {
   .pagina-completa {
-    height: 900px;
     display: grid;
-    grid-template-areas: "header header" "main main" "footer footer"; }
+    grid-template-areas: "header" "main" "footer"; }
   footer {
     grid-area: footer;
-    display: flex;
-    justify-content: center; }
+    display: flex; }
   header {
     grid-area: header; }
   main {
@@ -194,7 +193,7 @@ footer {
     grid-area: redessociales; }
   /*................................................HEADER PAGINA Menu..........................................*/
   .navbar-brand {
-    width: 1000px; }
+    width: 800px; }
   /*-----------------------pagina pedidos--------------------------------*/
   .pagina-pedidos {
     display: grid;
@@ -203,7 +202,7 @@ footer {
     grid-area: header-pedidos; }
   .mapa {
     grid-area: mapa;
-    justify-content: center; }
+    align-items: center; }
   .redessociales {
     grid-area: redessociales; }
   .boton-animacion, .logo, .video {

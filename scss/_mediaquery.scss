@@ -2,23 +2,25 @@
     @media screen and (min-width:768px){
 
         .pagina-completa{
-        height: 900px;
+
         display: grid;
         grid-template-areas:
-        "header header"
-        "main main"
-    "footer footer"
+        "header"
+        "main"
+        "footer"
     } 
     footer{
         grid-area: footer;
         display: flex;
-        justify-content: center;
+        
     }
     header{
         grid-area: header;
+       
     }
     main{
         grid-area: main;
+     
     }    
     /*................................................PAGINA Menu..........................................*/
     .pagina-menu{
@@ -43,7 +45,7 @@
     /*................................................HEADER PAGINA Menu..........................................*/
 
     .navbar-brand{
-        width: 1000px;
+        width: 800px;
 
     }
     /*-----------------------pagina pedidos--------------------------------*/
@@ -60,7 +62,7 @@
         }
     .mapa{
     grid-area: mapa;
-    justify-content: center;
+        align-items: center;
     }
     .redessociales{
     grid-area: redessociales;
