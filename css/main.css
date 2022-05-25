@@ -2,16 +2,13 @@
 /*Grid home*/
 .pagina-completa {
   display: grid;
-  grid-template-areas: "header"
- "main"
- "footer"; }
+  grid-template-areas: "header" "main" "footer"; }
 
 header {
   grid-area: header; }
 
 footer {
   grid-area: footer; }
-
 
 /*...........................main mobile....PAGINA INICIAL..............*/
 main {
@@ -22,11 +19,6 @@ main {
 
 .logo img {
   max-width: 150px; }
-
-.fondo-color {
-  background-image: linear-gradient(#eeccb0, #70280a);
-  height: 200px;
-  margin: auto; }
 
 .parrafo {
   color: #522903; }
@@ -63,7 +55,8 @@ main {
 
 /*-------------------------------main mobile pagina MENU--------------*/
 .churros-rellenos img, .churros-comunes img, .delgados img, .bañados img, .delgados-bañados img, .picachurros img {
-  max-width: 50px; }
+  max-width: 50px;
+  max-height: 90px; }
 
 .rellenos, .comunes, .churritos, .churros-bañados, .churritos-bañados, .pica {
   font-family: 'Kanit', sans-serif;
@@ -75,12 +68,7 @@ main {
   background-image: linear-gradient(#eeccb0, #a52a2a4f);
   display: grid;
   justify-content: start;
-  grid-template-areas: "producto1"
- "producto2"
- "producto3"
- "producto4"
- "producto5"
- "producto6"; }
+  grid-template-areas: "producto1" "producto2" "producto3" "producto4" "producto5" "producto6"; }
 
 .producto1 {
   grid-area: producto1; }
@@ -115,9 +103,7 @@ ul {
 /*---------------------------header-MOBILE- MENU........................*/
 .pagina-menu {
   display: grid;
-  grid-template-areas: "header-menu"
- "into-menu"
- "redessociales"; }
+  grid-template-areas: "header-menu" "into-menu" "redessociales"; }
 
 .header-menu {
   grid-area: header-menu; }
@@ -131,9 +117,7 @@ ul {
 /*------------------------- header-MOBILE-PEDIDOS -----------------*/
 .pagina-pedidos {
   display: grid;
-  grid-template-areas: "header-pedidos"
- "mapa"
- "redessociales"; }
+  grid-template-areas: "header-pedidos" "mapa" "redessociales"; }
 
 .header-pedidos {
   grid-area: header-pedidos; }
@@ -184,13 +168,11 @@ footer {
 @media screen and (min-width: 768px) {
   .pagina-completa {
     display: grid;
-    grid-template-areas: "header"
- "main"
- "footer"; }
- 
+    grid-template-areas: "header" "main" "footer"; }
   footer {
     grid-area: footer;
-    display: flex; }
+    display: flex;
+    justify-content: center; }
   header {
     grid-area: header; }
   main {
@@ -199,9 +181,7 @@ footer {
   .pagina-menu {
     height: 900px;
     display: grid;
-    grid-template-areas: "header-menu header-menu"
- "into-menu into-menu"
- "redessociales redessociales"; }
+    grid-template-areas: "header-menu header-menu" "into-menu into-menu" "redessociales redessociales"; }
   .header-menu {
     grid-area: header-menu; }
   .into-menu {
@@ -214,9 +194,7 @@ footer {
   /*-----------------------pagina pedidos--------------------------------*/
   .pagina-pedidos {
     display: grid;
-    grid-template-areas: "header-pedidos header-pedidos"
- "mapa mapa"
- "redessociales redessociales"; }
+    grid-template-areas: "header-pedidos header-pedidos" "mapa mapa" "redessociales redessociales"; }
   .header-pedidos {
     grid-area: header-pedidos; }
   .mapa {
@@ -246,8 +224,6 @@ footer {
     100% {
       transform: translateX(0px);
       opacity: 1; } }
-  .fondo-color {
-    height: 500px; }
   .Churros-rosario {
     font-size: 2.5em; }
   .video {
@@ -266,9 +242,7 @@ footer {
   .navegacion-menu {
     display: grid;
     justify-content: space-evenly;
-    grid-template-areas: "producto1 producto2"
- "producto3 producto4"
- "producto5 producto6"; }
+    grid-template-areas: "producto1 producto2" "producto3 producto4" "producto5 producto6"; }
   .producto1 {
     grid-area: producto1; }
   .producto2 {
@@ -284,16 +258,12 @@ footer {
   /*-------------------------------------------------------Main----Pagina-PEDIDOS-------------------------------------*/
   .parrafo2 {
     align-content: center; }
-  .fondo-color2 {
-    background-color: #eeccb0;
-    height: 50px; }
   /*..................................................TITULOS  PAGINAS.................................*/
   .titulo {
     font-family: 'Kanit', sans-serif;
     color: #C89265;
-    text-align: center;
+    justify-items: center;
     font-size: 2em; }
-  /*...............................................categorias PAGINA DE MENU*/
   /*.....................................................imagen1 LOGO DE LAS PAGINAS DE ENVIOS y pagos*/
   .imagen1 {
     text-align: center; }

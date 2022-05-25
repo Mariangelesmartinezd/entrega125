@@ -12,7 +12,7 @@
     footer{
         grid-area: footer;
         display: flex;
-        justify-items: center;
+        justify-content: center;
     }
     header{
         grid-area: header;
@@ -102,9 +102,7 @@
             }
         
     }
-    .fondo-color{
-        height: 500px;
-    }
+  
     .Churros-rosario{
         font-size: 2.5em;
     }
@@ -166,19 +164,17 @@
     }
 
 
-    .fondo-color2{
-        background-color: $color-primary; 
-        height: 50px;
-    }
+  
 
         /*..................................................TITULOS  PAGINAS.................................*/
     .titulo{
         font-family: 'Kanit', sans-serif;
         color: $color-tittle;
-        text-align: center;
+        justify-items: center;
         font-size: 2em;
     }
     
+
 
         /*.....................................................imagen1 LOGO DE LAS PAGINAS DE ENVIOS y pagos*/
     .imagen1{

@@ -14,10 +14,7 @@ header {
 footer{
     grid-area: footer;
     }
-.quienes-somos{
-    display: flex;
-    justify-content: center;
-}
+
     /*...........................main mobile....PAGINA INICIAL..............*/
     main{
         grid-area: main;
@@ -29,11 +26,7 @@ footer{
     .logo img{
             max-width: 150px;   
         }
-    .fondo-color{
-        background-image: linear-gradient($color-primary,$color-gradiente);
-            height: 200px;
-            margin: auto;
-        }
+  
     .parrafo{
     color: #522903;
     }
@@ -78,6 +71,7 @@ footer{
 
 .churros-rellenos img, .churros-comunes img, .delgados img, .bañados img, .delgados-bañados img, .picachurros img{  
      max-width: 50px;
+     max-height: 90px;
 }
 
 .rellenos, .comunes, .churritos, .churros-bañados, .churritos-bañados, .pica{
@@ -149,7 +143,6 @@ grid-area: into-menu;
 grid-area: redessociales;
 
 }
-
 
 
 
