@@ -89,7 +89,6 @@ main {
 .producto6 {
   grid-area: producto6; }
 
-/* */
 .titulo {
   font-family: 'Kanit', sans-serif;
   color: #C89265;
@@ -170,7 +169,8 @@ footer {
 @media screen and (min-width: 768px) {
   .pagina-completa {
     display: grid;
-    grid-template-areas: "header" "main" "footer"; }
+    grid-template-areas: "header" "main" "footer";
+    overflow: hidden; }
   footer {
     grid-area: footer;
     display: flex;
