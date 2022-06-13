@@ -166,7 +166,7 @@ footer {
 /*-----------------------media queries................desktop- PAGINA INICIAL*/
 @media screen and (min-width: 768px) {
   .pagina-completa {
-    overflow-wrap: break-word;
+    overflow-anchor: none;
     display: grid;
     grid-template-areas: "header" "main" "footer"; }
   footer {
