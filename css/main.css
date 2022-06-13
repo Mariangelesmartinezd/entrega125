@@ -1,8 +1,10 @@
 @charset "UTF-8";
 /*Grid home*/
+/* */
 .pagina-completa {
   display: grid;
-  grid-template-areas: "header" "main" "footer"; }
+  grid-template-areas: "header" "main" "footer";
+  overflow: hidden; }
 
 header {
   grid-area: header; }
@@ -53,14 +55,13 @@ main {
   max-width: 80px;
   margin-left: 5px; }
 
-/*-------------------------------main mobile pagina MENU--------------*/
 .churros-rellenos img, .churros-comunes img, .delgados img, .bañados img, .delgados-bañados img, .picachurros img {
   max-width: 50px;
   max-height: 90px; }
 
 .rellenos, .comunes, .churritos, .churros-bañados, .churritos-bañados, .pica {
   font-family: 'Kanit', sans-serif;
-  font-size: 1.5em;
+  font-size: 3em;
   font-weight: bolder;
   color: #70280a; }
 
@@ -88,6 +89,7 @@ main {
 .producto6 {
   grid-area: producto6; }
 
+/* */
 .titulo {
   font-family: 'Kanit', sans-serif;
   color: #C89265;
@@ -100,7 +102,7 @@ header {
 ul {
   list-style: none; }
 
-/*---------------------------header-MOBILE- MENU........................*/
+/*---------------------------header- MENU........................*/
 .pagina-menu {
   display: grid;
   grid-template-areas: "header-menu" "into-menu" "redessociales"; }
@@ -114,7 +116,7 @@ ul {
 .redessociales {
   grid-area: redessociales; }
 
-/*------------------------- header-MOBILE-PEDIDOS -----------------*/
+/*------------------------- header-PEDIDOS -----------------*/
 .pagina-pedidos {
   display: grid;
   grid-template-areas: "header-pedidos" "mapa" "redessociales"; }
@@ -131,7 +133,7 @@ ul {
 .redessociales {
   grid-area: redessociales; }
 
-/*..............................footer mobile...pagina inicial................*/
+/*..............................footer...pagina inicial................*/
 .redes {
   font-family: 'Kanit', sans-serif;
   font-size: 1.5em;
@@ -267,7 +269,7 @@ footer {
     font-family: 'Kanit', sans-serif;
     color: #C89265;
     justify-items: center;
-    font-size: 2em; }
+    font-size: 1.5em 0.5; }
   /*.....................................................imagen1 LOGO DE LAS PAGINAS DE ENVIOS y pagos*/
   .imagen1 {
     text-align: center; }
