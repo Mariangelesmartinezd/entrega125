@@ -3,8 +3,7 @@
 /* */
 .pagina-completa {
   display: grid;
-  grid-template-areas: "header" "main" "footer";
-  overflow: hidden; }
+  grid-template-areas: "header" "main" "footer"; }
 
 header {
   grid-area: header; }
@@ -168,9 +167,9 @@ footer {
 /*-----------------------media queries................desktop- PAGINA INICIAL*/
 @media screen and (min-width: 768px) {
   .pagina-completa {
+    overflow: hidden;
     display: grid;
-    grid-template-areas: "header" "main" "footer";
-    overflow: hidden; }
+    grid-template-areas: "header" "main" "footer"; }
   footer {
     grid-area: footer;
     display: flex;
