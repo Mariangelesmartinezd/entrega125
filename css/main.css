@@ -189,6 +189,7 @@ footer {
   .redessociales {
     grid-area: redessociales; }
   /*................................................HEADER PAGINA Menu..........................................*/
+  /* */
   .navbar-brand {
     width: 800px; }
   /*-----------------------pagina pedidos--------------------------------*/
@@ -211,6 +212,7 @@ footer {
   .logo {
     animation-name: animacion-in;
     animation-duration: 2s; }
+  /* */
   .video {
     animation-name: animacion-out;
     animation-duration: 5s; }
@@ -226,6 +228,7 @@ footer {
       opacity: 1; } }
   .Churros-rosario {
     font-size: 2.5em; }
+  /* */
   .video {
     text-align: center; }
   .parrafo img, .parrafo1 img {
@@ -259,6 +262,7 @@ footer {
   .parrafo2 {
     align-content: center; }
   /*..................................................TITULOS  PAGINAS.................................*/
+  /* */
   .titulo {
     font-family: 'Kanit', sans-serif;
     color: #C89265;

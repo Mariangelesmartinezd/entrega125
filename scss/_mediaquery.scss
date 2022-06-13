@@ -43,7 +43,7 @@
 
 
     /*................................................HEADER PAGINA Menu..........................................*/
-
+/* */
     .navbar-brand{
         width: 800px;
 
@@ -80,6 +80,7 @@
         animation-name: animacion-in;
         animation-duration:2s;
     }
+    /* */
     .video {
         @extend .boton-animacion;
         animation-name: animacion-out;
@@ -107,7 +108,7 @@
         font-size: 2.5em;
     }
 
-        
+        /* */
     .video{
         text-align: center;
     }
@@ -167,6 +168,7 @@
   
 
         /*..................................................TITULOS  PAGINAS.................................*/
+        /* */
     .titulo{
         font-family: 'Kanit', sans-serif;
         color: $color-tittle;
